@@ -9,6 +9,4 @@
 .cxx
 /app/build
 /app/.gitignore
-/gradlew
-/gradlew.bat
 .local.properties

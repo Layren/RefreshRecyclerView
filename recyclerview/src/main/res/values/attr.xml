@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="counts" format="integer" />
+    <declare-styleable name="RefreshRecyclerView">
+        <attr name="counts" />
+        <attr name="hideRefresh" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NestedRecyclerView">
+        <attr name="counts" />
+    </declare-styleable>
+
+</resources>

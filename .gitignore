@@ -11,6 +11,6 @@
 /app/.gitignore
 /gradlew
 /gradlew.bat
-.local.propertoes
+.local.properties
 /gradle
 .gradle.properties

@@ -1,4 +1,11 @@
 # RefreshRecyclerView
+1.0.4:
+     修复ItemDecoration类已知Bug
+          ( 在多布局且布局spanSize 不相同时会出现 分割线错乱问题;)
+     recyclerView 布局添加 
+            android:overScrollMode="never" 属性
+
+1.0.3:
 带刷新功能的recycleView
 
      注:此module为个人项目经历整理,具有以下几个特性
@@ -35,7 +42,7 @@
           onRefresh():刷新事件;
           onLoadMore():加载更多事件;
 
-        RefreshViewAdapterListener<T>
+        RefreshViewAdapterListener<T>:
 :         Adapter单布局回调,支持泛型;
           setHolder(holder,item);布局填充回调;
 
